@@ -1,0 +1,645 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+      crossorigin="anonymous"
+    ></script>
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+    />
+    <link rel="stylesheet" href="https://unpkg.com/aos@2.3.4/dist/aos.css" />
+  </head>
+  <body>
+    <header>
+      <nav class="navbar">
+        <img
+          src="logo2copy.png"
+          alt="sample-image"
+          class="logo"
+          height="40px"
+        />
+        <div class="menu-toggle" id="menu-toggle">
+          <i class="fa-solid fa-bars"></i>
+        </div>
+        <ul class="nav-links" id="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#education">Education</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li class="mobile-btn">
+            <a href="https://wa.me/9289294414">
+              <button type="button" class="hire-me-btn">Hire Me</button>
+            </a>
+          </li>
+        </ul>
+        <div class="nav-btn">
+          <a href="https://wa.me/9289294414"
+            ><button type="button" class="hire-me-btn">Hire Me</button></a
+          >
+        </div>
+      </nav>
+    </header>
+    <main>
+      <div class="hero-container" id="home">
+        <div class="left">
+          <h1><span class="p1">Hello, I'm</span>Tanisha</h1>
+          <h3>Frontend Developer & Website Designer</h3>
+          <p>
+            I create modern, responsive and user-friendly websites with clean UI
+            and smooth user experience.
+          </p>
+          <div class="cta-btn">
+            <a href="#projects"
+              ><button type="button" class="view-projects-btn">
+                View Projects
+              </button></a
+            >
+            <a href="Tanisha_Resume.pdf" target="_blank"
+              ><button type="button" class="download-resume-btn">
+                Download Resume
+              </button></a
+            >
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="floating-icon html">
+            <i class="fa-brands fa-html5"></i>
+          </div>
+
+          <div class="floating-icon css">
+            <i class="fa-brands fa-css3-alt"></i>
+          </div>
+
+          <div class="floating-icon js">
+            <i class="fa-brands fa-js"></i>
+          </div>
+
+          <div class="floating-icon bootstrap">
+            <i class="fa-brands fa-bootstrap"></i>
+          </div>
+
+          <div class="floating-icon github">
+            <i class="fa-brands fa-github"></i>
+          </div>
+
+          <div class="floating-icon figma">
+            <i class="fa-brands fa-figma"></i>
+          </div>
+
+          <div class="circle"></div>
+          <img src="hero-img2.jpg" alt="sample-image" height="400px" />
+        </div>
+      </div>
+
+      <section class="about-section" id="about">
+        <div class="about-container">
+          <div class="about-left" data-aos="fade-right">
+            <div class="section-tag">About Me</div>
+            <h2>
+              Creating Modern &
+              <span>Creative Web Experiences</span>
+            </h2>
+            <p class="about-description">
+              Hi, I'm <strong>Tanisha</strong>, a passionate Frontend Developer
+              and Website Designer who loves creating modern, responsive and
+              user-friendly websites. I'm constantly learning new technologies
+              and improving my skills to build faster, accessible and visually
+              appealing websites.
+            </p>
+
+            <div class="tech-stack">
+              <span>HTML5</span>
+
+              <span>CSS3</span>
+
+              <span>JavaScript</span>
+
+              <span>Bootstrap</span>
+
+              <span>GitHub</span>
+
+              <span>Figma</span>
+              <span>Jquery</span>
+              <span>AngularJS</span>
+              <span>React</span>
+              <span>Photoshop</span>
+              <span>Illustrator</span>
+              <span>NodeJS</span>
+            </div>
+          </div>
+          <div class="about-right" data-aos="fade-left">
+            <img src="hero-img2.jpg" alt="tanisha" />
+          </div>
+        </div>
+      </section>
+      <section class="education-section" id="education">
+        <div class="education-heading">
+          <p>MY ACADEMIC JOURNEY</p>
+          <h2>Education</h2>
+        </div>
+
+        <div class="education-cards">
+          <!-- BA -->
+          <div class="edu-card" data-aos="fade-up">
+            <div class="card-badge">2023 – 2026</div>
+            <h3>Bachelor of Arts</h3>
+            <p class="institute">Delhi University School of Open Learning</p>
+            <span class="grade">CGPA : 8.5</span>
+          </div>
+
+          <!-- Institute -->
+          <div class="edu-card" data-aos="fade-up" data-aos-delay="100">
+            <div class="card-badge">2023 – Present</div>
+            <h3>Graphic Website Design & Development</h3>
+            <p class="institute">Arena Animation</p>
+            <span class="grade">Graphic Website Design and Development</span>
+          </div>
+
+          <!-- 12th -->
+          <div class="edu-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="card-badge">2021 – 2023</div>
+            <h3>Class XII</h3>
+            <p class="institute">Kendriya Vidyalaya Pushp Vihar, New Delhi</p>
+            <span class="grade">Percentage : 90%</span>
+          </div>
+
+          <!-- 10th -->
+          <div class="edu-card" data-aos="fade-up" data-aos-delay="300">
+            <div class="card-badge">2020</div>
+            <h3>Class X</h3>
+            <p class="institute">Kendriya Vidyalaya Pushp Vihar, New Delhi</p>
+            <span class="grade">Percentage : 72%</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills-section" id="skills">
+        <!-- ===== HEADER ===== -->
+        <div class="skills-header">
+          <span class="skill-heading">
+            <i
+              class="fa-solid fa-code"
+              style="margin-right: 8px; font-size: 12px"
+            ></i>
+            My Skills
+          </span>
+          <h2 class="skills-subheading">
+            Technologies I <span class="highlight">Work With</span>
+          </h2>
+        </div>
+
+        <!-- ===== SKILLS GRID (No progress bars) ===== -->
+        <div class="skills-container">
+          <!-- 1. HTML5 -->
+          <div class="skills-card" data-aos="fade-right" data-aos-delay="0">
+            <div class="skills-icon-wrapper">
+              <i class="fa-brands fa-html5"></i>
+            </div>
+            <h3>HTML5</h3>
+          </div>
+
+          <!-- 2. CSS3 -->
+          <div class="skills-card" data-aos="fade-up" data-aos-delay="50">
+            <div class="skills-icon-wrapper">
+              <i class="fa-brands fa-css3-alt"></i>
+            </div>
+            <h3>CSS3</h3>
+          </div>
+
+          <!-- 3. JavaScript -->
+          <div class="skills-card" data-aos="fade-left" data-aos-delay="100">
+            <div class="skills-icon-wrapper">
+              <i class="fa-brands fa-js"></i>
+            </div>
+            <h3>JavaScript</h3>
+          </div>
+
+          <!-- 4. Bootstrap -->
+          <div class="skills-card" data-aos="fade-right" data-aos-delay="150">
+            <div class="skills-icon-wrapper">
+              <i class="fa-brands fa-bootstrap"></i>
+            </div>
+            <h3>Bootstrap</h3>
+          </div>
+
+          <!-- 5. Figma -->
+          <div class="skills-card" data-aos="fade-up" data-aos-delay="200">
+            <div class="skills-icon-wrapper">
+              <i class="fa-brands fa-figma"></i>
+            </div>
+            <h3>Figma</h3>
+          </div>
+
+          <!-- 6. GitHub -->
+          <div class="skills-card" data-aos="fade-left" data-aos-delay="250">
+            <div class="skills-icon-wrapper">
+              <i class="fa-brands fa-github"></i>
+            </div>
+            <h3>GitHub</h3>
+          </div>
+
+          <!-- 7. Photoshop -->
+          <div class="skills-card" data-aos="fade-right" data-aos-delay="300">
+            <div class="skills-icon-wrapper">
+              <i class="fa-solid fa-paintbrush"></i>
+            </div>
+            <h3>Photoshop</h3>
+          </div>
+
+          <!-- 8. Illustrator -->
+          <div class="skills-card" data-aos="fade-left" data-aos-delay="350">
+            <div class="skills-icon-wrapper">
+              <i class="fa-solid fa-pen-fancy"></i>
+            </div>
+            <h3>Illustrator</h3>
+          </div>
+          <!--Jquery-->
+          <div class="skills-card" data-aos="fade-right" data-aos-delay="350">
+            <div class="skills-icon-wrapper">
+              <i class="fa-solid fa-pen-fancy"></i>
+            </div>
+            <h3>Jquery</h3>
+          </div>
+          <!--AngularJS-->
+          <div class="skills-card" data-aos="fade-left" data-aos-delay="350">
+            <div class="skills-icon-wrapper">
+              <i class="fa-brands fa-angular"></i>
+            </div>
+            <h3>AngularJS</h3>
+          </div>
+          <!--React-->
+          <div class="skills-card" data-aos="fade-right" data-aos-delay="350">
+            <div class="skills-icon-wrapper">
+              <i class="fa-brands fa-react"></i>
+            </div>
+            <h3>React</h3>
+          </div>
+          <!--NodeJS-->
+          <div class="skills-card" data-aos="fade-left" data-aos-delay="350">
+            <div class="skills-icon-wrapper">
+              <i class="fa-brands fa-node-js"></i>
+            </div>
+            <h3>NodeJS</h3>
+          </div>
+        </div>
+      </section>
+      <section class="project-section" id="projects">
+        <p class="project-heading">PROJECTS</p>
+        <h3 class="project-subheading">Featured Projects</h3>
+        <div class="project-container">
+          <!--Project1-->
+          <div class="project-card" data-aos="fade-right">
+            <div class="project-image">
+              <img src="Gaming-webisite.png" alt="gaming" />
+            </div>
+            <div class="project-content">
+              <h3>PlayVerse Gaming Website</h3>
+              <p>
+                A modern gaming website inspired by Xbox featuring responsive
+                layout, game categories, wishlist, search.
+              </p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Bootstrap</span>
+              </div>
+              <div class="project-buttons">
+                <a
+                  href="https://deft-paletas-c7f349.netlify.app"
+                  class="live-btn"
+                  target="_blank"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Live Demo
+                </a>
+
+                <a href="https://github.com/tanishaasiwal" class="github-btn">
+                  <i class="fa-brands fa-github"></i>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--Project2-->
+          <div class="project-card" data-aos="fade-left">
+            <div class="project-image">
+              <img src="Movie-webiste1.png" alt="movie" />
+            </div>
+            <div class="project-content">
+              <h3>TaniFlex OTT Website</h3>
+              <p>
+                Netflix inspired movie streaming website with modern UI, search
+                bar, categories and responsive design.
+              </p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Javascript</span>
+                <span>Jquery</span>
+              </div>
+              <div class="project-buttons">
+                <a
+                  href="https://extraordinary-raindrop-85b190.netlify.app"
+                  class="live-btn"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Live Demo
+                </a>
+
+                <a href="https://github.com/tanishaasiwal" class="github-btn">
+                  <i class="fa-brands fa-github"></i>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--Project3-->
+          <div class="project-card" data-aos="fade-right">
+            <div class="project-image">
+              <img src="Educational-website.png" alt="education" />
+            </div>
+            <div class="project-content">
+              <h3>EduLearn Educational Website</h3>
+              <p>
+                Educational platform with courses, teachers, testimonials and
+                responsive interface.
+              </p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Javascript</span>
+              </div>
+              <div class="project-buttons">
+                <a
+                  href="https://tanishaasiwal.github.io/Edulearn"
+                  class="live-btn"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Live Demo
+                </a>
+
+                <a
+                  href="https://github.com/tanishaasiwal/Edulearn"
+                  class="github-btn"
+                >
+                  <i class="fa-brands fa-github"></i>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--Project4-->
+          <div class="project-card" data-aos="fade-left">
+            <div class="project-image">
+              <img src="Interior.png" alt="education" />
+            </div>
+            <div class="project-content">
+              <h3>Intact Interior Website</h3>
+              <p>
+                Educational platform with courses, teachers, testimonials and
+                responsive interface.
+              </p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Javascript</span>
+              </div>
+              <div class="project-buttons">
+                <a
+                  href="https://tanishaasiwal.github.io/Intact-design/"
+                  class="live-btn"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Live Demo
+                </a>
+
+                <a
+                  href="https://github.com/tanishaasiwal/Intact-design"
+                  class="github-btn"
+                >
+                  <i class="fa-brands fa-github"></i>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--Project5-->
+          <div class="project-card" data-aos="fade-right">
+            <div class="project-image">
+              <img src="Travel-website.png" alt="Travel" />
+            </div>
+            <div class="project-content">
+              <h3>FlyHigh Travel Website</h3>
+              <p>
+                Responsive travel agency website with destination gallery,
+                booking interface and attractive animations.
+              </p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Javascript</span>
+              </div>
+              <div class="project-buttons">
+                <a
+                  href="https://tanishaasiwal.github.io/FLYHIGH-TRAVELS-WEBSITE/"
+                  class="live-btn"
+                >
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Live Demo
+                </a>
+
+                <a
+                  href="https://github.com/tanishaasiwal/FLYHIGH-TRAVELS-WEBSITE"
+                  class="github-btn"
+                >
+                  <i class="fa-brands fa-github"></i>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+          <!--Project6-->
+          <div class="project-card" data-aos="fade-left">
+            <div class="project-image">
+              <img src="Nexcent.png" alt="Travel" />
+            </div>
+            <div class="project-content">
+              <h3>Nexcent Website</h3>
+              <p>
+                A simple and responsive business website designed with a clean
+                layout and user-friendly interface.
+              </p>
+              <div class="project-tech">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Javascript</span>
+              </div>
+              <div class="project-buttons">
+                <a href="#" class="live-btn">
+                  <i class="fa-solid fa-arrow-up-right-from-square"></i>
+                  Live Demo
+                </a>
+
+                <a href="https://github.com/tanishaasiwal" class="github-btn">
+                  <i class="fa-brands fa-github"></i>
+                  GitHub
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <p class="contact-heading">CONTACT</p>
+        <h2 class="contact-title">Let's Work Together</h2>
+
+        <div class="contact-container">
+          <!-- Left Side -->
+
+          <div class="contact-info" data-aos="fade-right">
+            <h3>Get In Touch</h3>
+
+            <p>
+              Have a project in mind? Let's create something amazing together.
+            </p>
+
+            <div class="info-box">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <a href="mailto:asiwaltanisha4@gmail.com"
+                  >asiwaltanisha4@gmail.com</a
+                >
+              </div>
+            </div>
+
+            <div class="info-box">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <a href="tel:+919289294414">
+                  <span>+91 9289294414</span>
+                </a>
+              </div>
+            </div>
+
+            <div class="info-box">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <h4>Location</h4>
+                <span>New Delhi, India</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Side -->
+
+          <form
+            class="contact-form"
+            data-aos="fade-left"
+            action="https://formspree.io/f/xdenkpkj"
+            method="post"
+          >
+            <input type="text" name="name" placeholder="Your Name" required />
+
+            <input
+              type="email"
+              name="email"
+              placeholder="Your Email"
+              required
+            />
+
+            <input type="text" name="subject" placeholder="Subject" />
+            <textarea
+              name="message"
+              placeholder="Write your message..."
+              required
+            ></textarea>
+            <button type="submit">Send Message</button>
+          </form>
+        </div>
+      </section>
+
+      <footer class="footer">
+        <div class="footer-container">
+          <!-- Left -->
+          <div class="footer-left">
+            <img src="logo2copy.png" alt="Logo" class="footer-logo" />
+
+            <p>
+              Frontend Developer & Website Designer passionate about creating
+              modern, responsive and user-friendly websites.
+            </p>
+          </div>
+
+          <!-- Center -->
+          <div class="footer-links">
+            <h3>Quick Links</h3>
+
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+          </div>
+
+          <!-- Right -->
+          <div class="footer-social">
+            <h3>Follow Me</h3>
+
+            <div class="social-icons">
+              <a href="https://github.com/tanishaasiwal"
+                ><i class="fa-brands fa-github"></i
+              ></a>
+
+              <a href="https://www.linkedin.com/in/tanisha-asiwal-7928b4419/"
+                ><i class="fa-brands fa-linkedin"></i
+              ></a>
+
+              <a href="https://wa.me/919289294414"
+                ><i class="fa-brands fa-whatsapp"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+
+        <div class="footer-bottom">
+          <p>© 2026 Tanisha. All Rights Reserved.</p>
+
+          <a href="#home">
+            <i class="fa-solid fa-arrow-up"></i>
+          </a>
+        </div>
+      </footer>
+    </main>
+    <script src="script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.4/dist/aos.js"></script>
+
+    <script>
+      AOS.init({
+        duration: 1200,
+        once: false,
+        mirror: true,
+      });
+    </script>
+  </body>
+</html>
